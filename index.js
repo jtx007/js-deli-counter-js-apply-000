@@ -9,5 +9,5 @@ function nowServing(katzDeliLine) {
   } else {
     return katzDeliLine[0]
   }
-  katzDeliLine.unshift
+  katzDeliLine.unshift();
 }
