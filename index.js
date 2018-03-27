@@ -10,5 +10,6 @@ function nowServing(katzDeliLine) {
   } else {
     let first = `Currently serving ${katzDeliLine[0]}.`
     katzDeliLine.shift()
+    return first
   }
 }
